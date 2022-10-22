@@ -1,0 +1,14 @@
+rancher:
+network:
+interfaces:
+eth0:
+address:
+gateway:
+dhcp: false
+dns:
+nameservers:
+#   - 
+  - 8.8.8.8
+
+ssh_authorized_keys:
+#   - 
